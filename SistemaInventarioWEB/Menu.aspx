@@ -22,6 +22,7 @@
                         <li><a href="Menu.aspx">Equipos</a></li>
                         <li><a href="Menu.aspx">Gestiones</a></li>
                         <li><a href="Menu.aspx">Usuarios</a></li>
+                        <li><a href="Menu.aspx">Acerca de</a></li>
                         <li><a href="Login.aspx">Salir</a></li>
                     </ul>
                 </nav>
