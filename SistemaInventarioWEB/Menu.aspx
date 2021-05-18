@@ -18,6 +18,7 @@
                 </div>
                 <nav>
                     <ul>
+                        <!--agregando comentario-->
                         <li class="actual"><a href="Menu.aspx">Inicio</a></li>
                         <li><a href="Menu.aspx">Equipos</a></li>
                         <li><a href="Menu.aspx">Gestiones</a></li>
