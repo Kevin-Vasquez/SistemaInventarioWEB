@@ -13,11 +13,11 @@
     <div class="loginbox">
         <img src="img/user.png" alt="Alternate Text" class="user"/>
         <h2>Log In Here</h2>
-        <form runat="server">
+        <form action="Verify" method="post" runat="server">
             <asp:Label Text="Email" CssClass="lblemail" runat="server" />
-            <asp:Textbox runat="server" CssClass="txtemail" placeholder="Enter Email" />
+            <asp:Textbox name="Email" runat="server" CssClass="txtemail" placeholder="Enter Email" />
             <asp:Label Text="Password" CssClass="lblpass" runat="server" />
-            <asp:TextBox runat="server" CssClass="txtpass" placeholder="**********"/>
+            <asp:TextBox name="Password" runat="server" CssClass="txtpass" placeholder="**********"/>
             <asp:Button Text="Sing In" CssClass="btnsubmit" runat="server" OnClick="Unnamed5_Click" />
             <!--<asp:LinkButton Text="Create Acount" CssClass="btncreate" runat="server" />-->
         </form>
